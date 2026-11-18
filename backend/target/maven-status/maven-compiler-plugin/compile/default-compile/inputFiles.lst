@@ -1,0 +1,9 @@
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\config\SecurityConfig.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\config\SpaCsrfTokenRequestHandler.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\controller\AuthController.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\controller\ProductController.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\DemoApplication.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\model\Product.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\security\JwtCookieFilter.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\security\JwtService.java
+C:\Users\Administrator\Downloads\spike_ticket\backend\src\main\java\com\example\gatewaydemo\service\ProductService.java
