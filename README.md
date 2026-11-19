@@ -11,6 +11,14 @@ cd C:\nginx
 
 # JWT Cookie + SPA CSRF demo
 
+## Admin app
+
+After signing in, the left sidebar opens Products, Customers, and Delivery. Each section supports listing, creating, editing, and deleting records. Deliveries belong to customers; delete a customer's deliveries before deleting that customer. The sample data is stored in memory and resets when the backend restarts.
+
+Admin URLs: `/admin/products`, `/admin/customers`, and `/admin/deliveries`. Opening `/` after sign-in goes to `/admin/products`.
+
+The frontend uses React Router nested routes and a protected admin layout. Each page fetches its own data when opened. Delivery also fetches customers for its customer selector.
+
 ## Flow
 
 - React calls `GET /api/auth/me` on startup to restore a session. This request goes through the SPA CSRF handler and can issue `XSRF-TOKEN` even when the response is 401.
